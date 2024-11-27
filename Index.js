@@ -6,7 +6,6 @@ function TowRandNums ()
     var arr =[random_num1,random_num2];
     return arr ;
 }
-var arr = TowRandNums ();
 
 function changeNumbers(Arr)
 {   
@@ -27,7 +26,6 @@ function changeNumbers(Arr)
             }
         } 
 }
-
 
 function StartDiceeGame()
 {

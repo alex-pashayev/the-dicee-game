@@ -1,0 +1,21 @@
+#title{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    color: blue;
+}
+
+.Box{
+    display: inline-block;
+}
+
+.Box1{
+    position: relative;
+    left: 20%;
+}
+.Box2{
+    position: relative;
+    left: 40%;
+}
