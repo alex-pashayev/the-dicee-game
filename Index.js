@@ -7,6 +7,38 @@ function TowRandNums ()
     return arr ;
 }
 var arr = TowRandNums ();
-alert("firs num is "+arr[0]+" and the econe one is "+arr[1]);
+
+function changeNumbers(Arr)
+{   
+    for(var i =1 ;i<7;i++)
+    {
+        
+        if(Arr[0]==i){
+            document.querySelector("#Img1").setAttribute("src","./images/dice"+i+".png");
+            break;
+        }
+    }
+
+    for(var i =1 ;i<7;i++)
+        {
+            if(Arr[1]==i){
+                document.querySelector("#Img2").setAttribute("src","./images/dice"+i+".png");
+                break;
+            }
+        } 
+}
+
+
+function StartDiceeGame()
+{
+    var randNumber = TowRandNums ();
+    changeNumbers(randNumber);
+}
+
+
+StartDiceeGame();
+
+
+
 
 
