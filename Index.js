@@ -31,6 +31,13 @@ function StartDiceeGame()
 {
     var randNumber = TowRandNums ();
     changeNumbers(randNumber);
+    if(randNumber[0]>randNumber[1])
+    {
+        var a =document.querySelector("h1").innerText="the winner is player one";
+    }
+    else{
+        var a =document.querySelector("h1").innerText="the winner is player tow";
+    }
 }
 
 
